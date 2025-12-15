@@ -7,7 +7,7 @@ langchain==1.0.4
 langchain-core==1.2.1     
 langchain-community==0.4.1
 langchain-classic==1.0.0
-langchain-text-splitters==0.3.8
+
 
 # --- Integrations ---
 langchain-openai==1.0.2
