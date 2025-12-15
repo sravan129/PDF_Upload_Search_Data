@@ -1,11 +1,10 @@
 
 # --- Core Frameworks ---
 streamlit==1.49.1
-python-dotenv==1.0.1
 
 # --- LangChain Core Packages ---
 langchain==0.3.7
-langchain-core==0.3.19        # ✅ compatible with langchain==0.3.7
+langchain-core==0.3.19       
 langchain-community==0.4.1
 langchain-classic==1.0.0
 langchain-text-splitters==0.3.8
@@ -15,12 +14,7 @@ langchain-openai==1.0.2
 langchain-groq==1.1.1
 langchainhub==0.1.21
 
-# --- LangGraph (optional, compatible set) ---
-langgraph==1.0.5
-langgraph-checkpoint==3.0.1
-langgraph-prebuilt==1.0.5
-langgraph-sdk==0.3.0
-langsmith==0.1.19             # ✅ downgraded to match langchain-core
+
 
 # --- Machine Learning & Embeddings ---
 faiss-cpu==1.13.1
