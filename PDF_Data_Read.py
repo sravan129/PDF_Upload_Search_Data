@@ -20,7 +20,7 @@ def main():
     st.title("PDF Question Answering App")
     st.info("Ready to analyze your documents!")
 
-    openai_api_key = st.text_input("🔑 Enter OpenAI API Key (leave blank to use Groq):", type="password")
+    openai_api_key = st.text_input("Enter OpenAI API Key or use Groq Key):", type="password")
 
     uploaded_file = st.file_uploader("Upload a PDF file", type="pdf")
 
@@ -104,4 +104,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
