@@ -17,7 +17,7 @@ load_dotenv()
 
 
 def main():
-    st.title("PDF Question Answering App (LangChain v1.x)")
+    st.title("PDF Question Answering App")
     st.info("Ready to analyze your documents!")
 
     openai_api_key = st.text_input("🔑 Enter OpenAI API Key (leave blank to use Groq):", type="password")
@@ -104,3 +104,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
